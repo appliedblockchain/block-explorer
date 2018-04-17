@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders correctly 1`] = `
+<div
+  className="cardContainer"
+  style={
+    Object {
+      "height": undefined,
+      "width": 500,
+    }
+  }
+>
+  <div
+    className="cardHeader"
+  >
+    Card Header
+  </div>
+  <div>
+    Card content
+  </div>
+</div>
+`;

@@ -1,0 +1,25 @@
+.blockList {
+  width: 100%;
+  border-spacing: 0px;
+}
+
+.td {
+  padding: 6px !important;
+  padding-right: 20px !important;
+  border-bottom: 1px solid lightgrey;
+  outline: none;
+}
+
+.headTd {
+  font-weight: bold;
+}
+
+.tdOverflowHidden {
+  width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.rightAlign {
+  text-align: right;
+}

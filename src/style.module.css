@@ -1,0 +1,18 @@
+.blockExplorer {
+  width: 100%;
+}
+
+.blockExplorerFlexContainer {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  box-sizing: border-box
+}
+
+.blockCardContainer {
+  padding-left: 30px;
+  padding-right: 30px;
+  box-sizing: border-box;
+  flex: 2;
+  overflow: hidden
+}

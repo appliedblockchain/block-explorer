@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="labelValuePair"
+>
+  <div
+    className="labelValuePairItem"
+  >
+    <div
+      className="labelValuePairLabel"
+    >
+      Label
+    </div>
+    <div
+      className="labelValuePairValue"
+    >
+      <div>
+        Value children
+      </div>
+    </div>
+  </div>
+</div>
+`;

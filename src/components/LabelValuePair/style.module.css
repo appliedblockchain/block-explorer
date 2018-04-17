@@ -1,0 +1,33 @@
+
+.labelValuePair {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.labelValuePairItem {
+    display: flex;
+}
+
+.labelValuePairLabel {
+    font-weight: bold;
+    width: 190px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.labelValuePairValue {
+    flex: 5;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.codeValue {
+    flex: 5;
+    word-break: break-all;
+    white-space: normal;
+    font-size: 14px;
+    font-family: 'Inconsolata';
+}
