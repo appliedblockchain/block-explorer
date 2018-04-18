@@ -1,6 +1,6 @@
 {
   "name": "@appliedblockchain/block-explorer",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Generic Block Explorer UI",
   "main": "build/index.js",
   "peerDependencies": {
