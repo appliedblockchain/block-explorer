@@ -2,6 +2,7 @@ var path = require('path')
 var LodashModuleReplacementPlugin = require('lodash-webpack-plugin')
 
 module.exports = {
+  mode: 'development',
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'build'),

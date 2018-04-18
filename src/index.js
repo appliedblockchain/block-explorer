@@ -20,7 +20,7 @@ class Component extends React.Component {
       <div>
         <div className={styles.blockExplorerFlexContainer}>
           <div style={{ flex: 3 }}>
-            <Scrollbars style={{ height: 500, paddingBottom: 20 }}>
+            <Scrollbars style={{ height, paddingBottom: 20 }}>
               <BlockList
                 blocks={blocks}
                 selectedBlockChanged={this.setSelectedBlock}
