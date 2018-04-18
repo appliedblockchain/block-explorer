@@ -1,3 +1,5 @@
-import numeral from 'numeral'
+import numbro from 'numbro'
 
-export const formatNumber = (value) => numeral(value).format('0,0')
+export const formatNumber = (value) => {
+  return numbro(value).format({ thousandSeparated: true })
+}

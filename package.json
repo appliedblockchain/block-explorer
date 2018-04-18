@@ -1,21 +1,23 @@
 {
-  "name": "block-explorer",
+  "name": "@appliedblockchain/block-explorer",
   "version": "0.0.1",
   "description": "Generic Block Explorer UI",
   "main": "build/index.js",
   "peerDependencies": {
-    "react": "^15.5.4"
+    "react": "^16.3.2"
   },
   "dependencies": {
+    "babel-plugin-lodash": "^3.3.2",
     "classnames": "^2.2.5",
     "css-loader": "^0.28.11",
-    "moment-timezone": "^0.5.15",
-    "numeral": "^2.0.6",
+    "date-fns": "^1.29.0",
+    "lodash-webpack-plugin": "^0.11.5",
+    "numbro": "^2.0.6",
     "react": "^15.5.4",
     "react-custom-scrollbars": "^4.2.1",
     "react-json-view": "^1.16.1",
     "style-loader": "^0.20.3",
-    "webpack": "^2.6.1"
+    "webpack": "^4.6.0"
   },
   "repository": {
     "type": "git",
@@ -28,7 +30,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack --mode=production"
   },
   "author": {
     "name": "Your name",
@@ -41,6 +43,7 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-env": "^1.5.1"
+    "babel-preset-env": "^1.5.1",
+    "webpack-cli": "^2.0.14"
   }
 }

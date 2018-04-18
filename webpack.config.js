@@ -1,4 +1,5 @@
 var path = require('path')
+var LodashModuleReplacementPlugin = require('lodash-webpack-plugin')
 
 module.exports = {
   entry: './src/index.js',
@@ -30,7 +31,8 @@ module.exports = {
             plugins: [
               'transform-object-rest-spread',
               'transform-react-jsx',
-              'transform-class-properties'
+              'transform-class-properties',
+              'lodash'
             ]
           }
         }
@@ -39,5 +41,8 @@ module.exports = {
   },
   externals: {
     'react': 'commonjs react'
-  }
+  },
+  plugins: [
+    new LodashModuleReplacementPlugin
+  ]
 }
