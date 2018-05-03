@@ -20,7 +20,12 @@ const TransactionItem = props =>
     </LabelValuePair>
 
     <LabelValuePair label="Input Data" isCode>
-      {props.input}
+      <div
+        style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}
+        title={props.input}
+      >
+        {props.input}
+      </div>
     </LabelValuePair>
 
     <LabelValuePair label="Decoded Transaction">
