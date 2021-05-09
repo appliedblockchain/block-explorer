@@ -11,7 +11,7 @@
     "classnames": "^2.2.5",
     "css-loader": "^0.28.11",
     "date-fns": "^1.29.0",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.21",
     "lodash-webpack-plugin": "^0.11.5",
     "numbro": "^2.0.6",
     "react": "^15.5.4",
